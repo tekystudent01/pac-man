@@ -13,9 +13,9 @@ ghost3 = turtle.Turtle()
 ghost4 = turtle.Turtle()
 screen = turtle.Screen()
 screen.setup(600,600)
-screen.bgpic('D:\\PHUC GIA in p1\\python\\SNLTW\\hp2\\lesson7\\R.gif')
-screen.addshape('D:\\PHUC GIA in p1\\python\\SNLTW\\hp2\\lesson7\\pac-man.gif')
-turtle.shape('D:\\PHUC GIA in p1\\python\\SNLTW\\hp2\\lesson7\\pac-man.gif')
+screen.bgpic('R.gif')
+screen.addshape('pac-man.gif')
+turtle.shape('pac-man.gif')
 def eaten():
     screen
 def moveLeft():
