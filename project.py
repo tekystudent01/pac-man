@@ -8,9 +8,15 @@ playerspeed = 5
 screen = turtle.Screen()
 screen.screensize(1000,500)
 screen.setup(600,600)
+<<<<<<< HEAD
 screen.bgpic('D:\pac-man\R.gif')
 screen.addshape('D:\pac-man\s.gif')
 turtle.shape('D:\pac-man\s.gif')
+=======
+screen.bgpic('R.gif')
+screen.addshape('pac-man.gif')
+turtle.shape('pac-man.gif')
+>>>>>>> fcfa3e47c11a202eb4d8ead8fdd00fbf59827eb5
 def eaten():
     screen
 def moveLeft():
