@@ -3,14 +3,19 @@ from turtle import *
 import arcade
 import turtle
 from freegames import floor, vector
-turtle.penup() 
-playerspeed = 5
+playerspeed = 50
+#sould = arcade.load_sound('D:\PHUC GIA in p1\python\SNLTW\hp2\project hp2\man-theme-remix-by-arsenic1987.mp3')
+#arcade.play_sound(sould)
+pacman = turtle.Turtle()
+ghost1 = turtle.Turtle()
+ghost2 = turtle.Turtle()
+ghost3 = turtle.Turtle()
+ghost4 = turtle.Turtle()
 screen = turtle.Screen()
-screen.screensize(1000,500)
 screen.setup(600,600)
-screen.bgpic('D:\pac-man\R.gif')
-screen.addshape('D:\pac-man\s.gif')
-turtle.shape('D:\pac-man\s.gif')
+screen.bgpic('D:\hp2\project hp2\R.gif')
+screen.addshape('pac-man.gif')
+turtle.shape('pac-man.gif')
 def eaten():
     screen
 def moveLeft():
